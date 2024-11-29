@@ -1,2 +1,2 @@
 module.exports =
-  'Unidad 2. Competencias de autoformación y autogestión del aprendizaje'
+  'Unidad 3. Dominio de la Plataforma LMS y Herramientas Digitales'

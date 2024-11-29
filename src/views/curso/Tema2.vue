@@ -1,100 +1,179 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno.text-uppercase(:titulo="'Unidad 2. Competencias de autoformación y autogestión del aprendizaje'" :subTitulo="'2.Estrategias para la planificación y gestión del tiempo'")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4 Se invita a revisar el video para descubrir cómo una adecuada planificación del tiempo puede ayudar a incrementar la productividad, reducir el estrés y alcanzar los objetivos de manera equilibrada y organizada.
-
-    .bg-fondo-5.bg-full-width
-      div.px-5.pb-md-3.py-4
-
-        figure.mb-5
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-        h2.mb-4 Creación de un plan diario y semanal
-        p.mb-4 Una planificación diaria y semanal clara permite avanzar hacia los objetivos sin sentirse abrumado:
-    
-        .row
-          .col-10.col-md-6.col-lg-6.mb-4.mx-auto(data-aos="fade-right")
-            div.custom-image-card.rounded-8px
-              img.mb-4(src='@/assets/curso/unidad/img-47.png', alt='Texto que describa la imagen')
-              div.mb-4
-                p.text-bold.text-center Planificación diaria
-                p.text-small.px-4.text-center.pb-2 Estructura las actividades del día anticipadamente: lista de tareas, priorización según Eisenhower o ABCDE, asignación de tiempos y espacios para imprevistos (Allen, 2006)
-          .col-10.col-md-6.col-lg-6.mb-4.mx-auto(data-aos="fade-left")
-            div.custom-image-card.rounded-8px
-              img.mb-4(src='@/assets/curso/unidad/img-48.png', alt='Texto que describa la imagen')
-              div.mb-4
-                p.text-bold.text-center Planificación semanal
-                p.text-small.px-4.text-center.pb-2 Proporciona una visión general de las responsabilidades: establece metas semanales, asigna tareas diarias y revisa al final de la semana para ajustar la próxima (Bustinduy, 2021).
-
-    h2.mb-4 Técnicas de organización del tiempo
-    p.mb-4 La división y organización del tiempo en bloques específicos mejora la eficiencia y evita la procrastinación.
-
-    .bg-fondo-6.bg-full-width
-      div.px-5.pb-md-3.py-4
-
-        .row.justify-content-center(data-aos="zoom-in-up").mb-4
-          .col-10.col-sm-9.col-lg-6.col-xl-4.mb-4(data-aos="fade-up-right")
-            .custom-image-card.d-flex.justify-content-center.p-4.py-xl-5.h-100.flex-column
-              img.mx-auto.mb-3(src='@/assets/curso/unidad/img-49.svg', style="width: 90px")
-              p.mb-3.text-center.text-bold  Técnica Pomodoro
-              p.mb-0.text-center.text-small Trabaja en intervalos de 25 minutos ("pomodoros") con pausas de 5 minutos; después de cuatro, toma un descanso más largo (15-30 minutos) (Fiore, 2007).
-          .col-10.col-sm-9.col-lg-6.col-xl-4.mb-4(data-aos="fade-up-down")
-            .custom-image-card.d-flex.justify-content-center.p-4.py-xl-5.h-100.flex-column
-              img.mx-auto.mb-3(src='@/assets/curso/unidad/img-50.svg', style="width: 90px")  
-              p.mb-3.text-center.text-bold Bloques de tiempo.
-              p.mb-0.text-center.text-small Dedica bloques de una o dos horas a actividades específicas, agrupando tareas similares y evitando distracciones (Morgenstern, 2004).
-          .col-10.col-sm-9.col-lg-6.col-xl-4.mb-4(data-aos="fade-up-left")
-            .custom-image-card.d-flex.justify-content-center.p-4.py-xl-5.h-100.flex-column
-              img.mx-auto.mb-3(src='@/assets/curso/unidad/img-51.svg', style="width: 90px")  
-              p.mb-3.text-center.text-bold  Regla de los dos minutos. 
-              p.mb-0.text-center.text-small Realiza de inmediato tareas que tomen menos de dos minutos, reduciendo la lista de pendientes y liberando espacio mental para tareas más importantes (Allen, 2006).
-
-        h2.mb-4 Control de progreso y evaluación
-        p.mb-4 Monitorear y evaluar el progreso asegura el cumplimiento de los objetivos y permite ajustar estrategias para mejorar la gestión del tiempo:
-
-        .row.mb-5
-          .col-12.col-xl-8.d-flex.flex-column.justify-content-center.bg-rosa.p-4.p-xxl-5(data-aos="fade-right")
-            div.d-flex.mb-4
-              img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
-              p.mb-0  <strong>Revisión diaria.</strong> Evalúa las tareas completadas al final del día y ajusta el plan para el siguiente día, identificando distracciones o ineficiencias (Fiore, 2007).
-            div.d-flex
-              img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
-              p.mb-0  <strong>Revisión seminal.</strong> Ofrece una perspectiva amplia del progreso hacia metas a largo plazo, permitiendo hacer ajustes oportunos en hábitos y metas (Bustinduy, 2021).
-          .d-none.d-xl-block.col-4.px-0(data-aos="fade-left")
-            img.h-100(src='@/assets/curso/unidad/img-52.png', alt='Texto que describa la imagen')
-
-        h2.mb-4 Herramientas tecnológicas para la gestión del tiempo
-        p.mb-4 Existen diversas herramientas tecnológicas para organizar y gestionar el tiempo de manera eficiente: 
-
-    .row.mb-4
-      .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-right")
-        div.custom-image-card.rounded-8px
-          img.mb-4(src='@/assets/curso/unidad/img-53.png', alt='Texto que describa la imagen')
-          div.mb-4
-            p.text-bold.text-center Calendarios electrónicos
-            p.text-small.px-4.text-center.pb-2 Google Calendar y Outlook permiten programar actividades, recibir recordatorios y organizar el tiempo de forma flexible (Blanchard & Johnson, 2009).
-      .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-up")
-        div.custom-image-card.rounded-8px
-          img.mb-4(src='@/assets/curso/unidad/img-54.png', alt='Texto que describa la imagen')
-          div.mb-4
-            p.text-bold.text-center Aplicaciones de tareas
-            p.text-small.px-4.text-center.pb-2 Aplicaciones como Todoist, Trello y Microsoft To Do ayudan a gestionar listas de tareas y organizar proyectos de manera colaborativa (Covey, 2016).
-      .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-left")
-        div.custom-image-card.rounded-8px
-          img.mb-4(src='@/assets/curso/unidad/img-55.png', alt='Texto que describa la imagen')
-          div.mb-4
-            p.text-bold.text-center Aplicaciones de gestión del tiempo
-            p.text-small.px-4.text-center.pb-2 Herramientas como Focus Booster y Forest ayudan a mejorar la concentración mediante técnicas como el Pomodoro, reduciendo distracciones (Morgenstern, 2004).
+  BannerInterno.text-uppercase(:titulo="'Unidad 3. Dominio de la Plataforma LMS y Herramientas Digitales'" :subTitulo="'2.Uso de herramientas de videoconferencia y colaboración en línea'")
+  .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.pb-0
 
     .row.mb-5
-      .d-flex.align-items-center
-        div.d-flex.align-items-center.bg-azul.px-3.py-4
-          img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-56.svg', alt='Texto que describa la imagen')
-          p.pe-xl-5.mb-0 Estas estrategias y herramientas facilitan el establecimiento de una estructura organizada y equilibrada para maximizar la productividad y el bienestar en el aprendizaje autónomo o el trabajo independiente.
+      .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
+        img(src='@/assets/curso/unidad/img-25.png', alt='Texto que describa la imagen')  
+      .col-12.col-xl-7.d-flex.flex-column
+        p 
+        .d-flex.align-items-start.bg-verde.p-4.mb-4(data-aos="fade-left")
+          img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-26.svg', alt='Texto que describa la imagen')
+          .d-flex.flex-column
+            p.pe-xl-3.mb-0(data-aos="fade-up") Las herramientas de videoconferencia se han convertido en esenciales para la educación en línea, permitiendo una interacción en tiempo real entre estudiantes y profesores. Estas herramientas no solo facilitan el acceso al contenido educativo, sino que también promueven un ambiente colaborativo.
 
+    #t_2_1.titulo-segundo
+      div.d-flex
+        span.me-3 2.1  
+        h2 Creación y programación de reuniones
 
+    p.mb-4 La mayoría de las plataformas de videoconferencia, como Zoom, Microsoft Teams y Google Meet, permiten programar reuniones desde el panel principal o el calendario. Esto facilita la planificación anticipada de reuniones, asegurando que todos los participantes conozcan el horario y puedan prepararse para la sesión (Barron et al., 2014).
+
+    .row.position-relative.mb-5.py-4.bg-fondo-1.bg-full-width
+      div.px-4.px-md-5.py-md-3
+        SlyderA(tipo="b").bg-white
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
+              p.text-bold Datos básicos
+              p Al programar, completa información clave como título, fecha, duración y zona horaria. Una duración adecuada permite abordar el contenido sin extenderse demasiado para mantener la atención (González, 2012).
+            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
+              figure
+                img(src='@/assets/curso/unidad/img-27.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
+              p.text-bold Opciones de seguridad
+              p Configurar contraseñas o salas de espera ofrece mayor control sobre quién ingresa a la reunión, evitando la participación de personas no autorizadas (Molina, 2018).
+            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
+              figure
+                img(src='@/assets/curso/unidad/img-28.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
+              p.text-bold Autenticación de participantes
+              p Algunas plataformas requieren que los participantes inicien sesión con un correo específico. Esta medida garantiza la seguridad en entornos académicos.
+            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
+              figure
+                img(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
+              p.text-bold Agenda y objetivos de la sesión
+              p Antes de enviar la invitación, define los objetivos y comparte una breve agenda para orientar a los estudiantes sobre lo que se espera en la reunión.
+            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
+              figure
+                img(src='@/assets/curso/unidad/img-30.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
+              p.text-bold Prueba de audio y video
+              p Realice una prueba de equipos antes de la sesión. Algunas plataformas ofrecen una “sala de práctica” para verificar el funcionamiento de audio, video y pantalla compartida (Alkhasawneh & Alqahtani, 2019).
+            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
+              figure
+                img(src='@/assets/curso/unidad/img-31.png', alt='Texto que describa la imagen')
+
+    #t_2_2.titulo-segundo
+      div.d-flex
+        span.me-3 2.2  
+        h2 Acceso y configuración del perfil de usuario
+    
+    p.mb-4 Un acceso seguro y la configuración del perfil personal en las plataformas de videoconferencia facilitan una experiencia de uso más segura y personalizada.
+    
+    .row.position-relative.mb-5.py-4.bg-fondo-6.bg-full-width
+      div.px-4.px-md-5.py-md-3
+
+        .row.mb-0
+          .col-10.col-md-6.col-lg-4.mb-0.mx-auto(data-aos="fade-right")
+            div.custom-image-card.rounded-8px.p-4.pt-xl-5
+              img.mb-4.mx-auto(src='@/assets/curso/unidad/img-55.svg', alt='Texto que describa la imagen', style="width: 90px")
+              div.mb-4
+                p.text-bold.text-center Iniciar sesión de forma segura.
+                p.text-small.px-4.text-center.pb-2 Utilice el enlace de acceso proporcionado por la institución y realice esta acción desde un dispositivo personal para proteger la seguridad de la cuenta.
+          .col-10.col-md-6.col-lg-4.mb-0.mx-auto(data-aos="fade-up")
+            div.custom-image-card.rounded-8px.p-4.pt-xl-5
+              img.mb-4.mx-auto(src='@/assets/curso/unidad/img-33.svg', alt='Texto que describa la imagen', style="width: 90px")
+              div.mb-4
+                p.text-bold.text-center Recuperación de contraseña.
+                p.text-small.px-4.text-center.pb-2 Si olvidó la contraseña, seleccione la opción de recuperación y siga los pasos para restablecerla.
+          .col-10.col-md-6.col-lg-4.mb-0.mx-auto(data-aos="fade-left")
+            div.custom-image-card.rounded-8px.p-4.pt-xl-5
+              img.mb-4.mx-auto(src='@/assets/curso/unidad/img-34.svg', alt='Texto que describa la imagen', style="width: 90px")
+              div.mb-4
+                p.text-bold.text-center Autenticación en dos pasos.
+                p.text-small.px-4.text-center.pb-2 La autenticación en dos pasos añade una capa de seguridad, solicitando un código adicional al iniciar sesión desde un dispositivo desconocido.
+
+        #t_2_3.titulo-segundo
+          div.d-flex
+            span.me-3 2.3  
+            h2 Configuración de audio y video
+        
+        p.mb-4 La correcta configuración de audio y video asegura una comunicación clara y estable durante la videoconferencia.
+
+    .row
+      .col-12.col-xl-7(data-aos="fade-right")
+        LineaTiempoD.color-secundario
+          p(numero="1" titulo="Dispositivos de entrada y salida") Seleccione un micrófono y audífonos desde la configuración de la plataforma para mejorar la calidad del sonido. La opción de audífonos ayuda a reducir el eco y otros ruidos. 
+          p(numero="2" titulo="Prueba de audio y control de volumen") Realice una prueba de sonido antes de cada sesión para garantizar que el micrófono y los altavoces funcionen adecuadamente. La opción de silenciar el micrófono ayuda a reducir el ruido de fondo. 
+          p(numero="3" titulo="Calidad de video") Puede ajustar la calidad del video según la velocidad de su conexión a internet. Reducirla en caso de lentitud o interrupciones mejora la estabilidad de la transmisión (Serving on Groups, 2024). 
+          p(numero="4" titulo="Fondo virtual y efectos") Utilizar fondos virtuales mantiene la privacidad del entorno. Algunos LMS también permiten efectos de desenfoque, lo cual es ideal para mantener un aspecto profesional en la videoconferencia. 
+      .col-5.d-none.d-xl-block(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-35.png', alt='Texto que describa la imagen')
+
+    h2 Uso de herramientas de colaboración integradas
+    p.mb-4 Las herramientas de colaboración integradas en los LMS facilitan el trabajo en equipo y la gestión de proyectos. Desde documentos colaborativos hasta tableros de tareas, estas funcionalidades permiten una experiencia de trabajo colaborativo sin la necesidad de salir de la plataforma.
+
+    .row.mb-4
+      .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-right")
+        img(src='@/assets/curso/unidad/img-36.png', alt='Texto que describa la imagen')
+      .col-12.col-lg-7(data-aos="fade-left")
+        AcordionA(tipo="b")
+          .div(titulo="Documentos colaborativos")
+            p Permiten edición en tiempo real junto con compañeros, lo cual agiliza el trabajo en equipo y evita la constante actualización de archivos.
+          .div(titulo="Comentarios y anotaciones")
+            p La función de comentarios permite dejar notas o hacer preguntas en puntos específicos del documento, facilitando una comunicación rápida y dirigida.
+          .div(titulo="Historial de cambios")
+            p Algunas herramientas permiten ver quién hizo cada modificación, útil para revisar el avance y restaurar versiones anteriores si es necesario.
+          .div(titulo="Foros de discusión y grupos de trabajo")
+            p Los foros organizados por temas permiten la participación en discusiones estructuradas, facilitando el intercambio de ideas y la resolución de dudas.
+          .div(titulo="Tableros de tareas y gestión de proyectos")
+            p Organizan proyectos por fases y tareas específicas. Estas herramientas de gestión de proyectos ayudan a monitorear el avance y asegurar que cada miembro del equipo esté alineado con los objetivos.
+
+    .row.position-relative.mb-0.pb-4.bg-fondo-5.bg-full-width
+      div.px-4.px-md-5.py-md-3
+
+        h2 Participación en salas de subgrupos (breakout rooms)
+        p.mb-4 Las salas de subgrupos son espacios dentro de una videoconferencia en los que se agrupa a los participantes en equipos más pequeños, permitiendo una colaboración más directa.
+
+        .row.mb-0.justify-content-center.card_hover(data-aos="zoom-in-up")
+          .col-10.col-sm-9.col-md-6.mb-4(data-aos="fade-right")
+            .custom-image-card.d-flex.justify-content-center.p-3.h-100
+              img.mx-auto.mb-3(src='@/assets/curso/unidad/img-37.svg', style="width: 68px")
+              
+              .d-flex.flex-column.px-4.py-2
+                p.text-bold.mb-3 Trabajo colaborativo en grupos
+                p.mb-0.text-small Estas salas permiten a los participantes interactuar en un ambiente más cercano, ideal para la discusión de casos y resolución de problemas.
+          .col-10.col-sm-9.col-md-6.mb-4(data-aos="fade-left")
+            .custom-image-card.d-flex.justify-content-center.p-3.h-100
+              img.mx-auto.mb-3(src='@/assets/curso/unidad/img-37.svg', style="width: 68px")  
+              
+              .d-flex.flex-column.px-4.py-2
+                p.text-bold.mb-3 Asignación de roles
+                p.mb-0.text-small En algunos casos, se asignan roles como moderador, anotador o presentador para estructurar mejor la actividad y cumplir los objetivos.
+          
+          .col-10.col-sm-9.col-md-6.mb-4(data-aos="fade-right")
+            .custom-image-card.d-flex.justify-content-center.p-3.h-100
+              img.mx-auto.mb-3(src='@/assets/curso/unidad/img-37.svg', style="width: 68px")
+              
+              .d-flex.flex-column.px-4.py-2
+                p.text-bold.mb-3 Uso de pizarra y herramientas de anotación
+                p.mb-0.text-small Las salas de subgrupo suelen incluir pizarras virtuales o herramientas de anotación para tomar notas o diagramar ideas en conjunto, facilitando la visualización de conceptos.
+          .col-10.col-sm-9.col-md-6.mb-4(data-aos="fade-left")
+            .custom-image-card.d-flex.justify-content-center.p-3.h-100
+              img.mx-auto.mb-3(src='@/assets/curso/unidad/img-37.svg', style="width: 68px")
+              
+              .d-flex.flex-column.px-4.py-2
+                p.text-bold.mb-3 Comunicación con el moderador
+                p.mb-0.text-small Los participantes pueden solicitar la ayuda del moderador si tienen dudas o necesitan orientación, facilitando el desarrollo fluido de la actividad (Ministerio de Educación de Chile, 2020)
+
+    .row.bg-azul.bg-full-width.py-4
+      div.px-5.pb-md-3.py-4.d-flex
+        .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
+          h2.mb-4.pb-2.me-auto ¿Sabía que integrar aplicaciones digitales puede mejorar notablemente la productividad académica?
+          p.mb-5 Este documento: Integración de aplicaciones y herramientas digitales para la productividad académica le invita a explorar herramientas clave para la organización, toma de notas, colaboración y creación de contenidos. Desde Google Calendar y Trello para gestionar tiempo y tareas, hasta Notion y Evernote para organizar conocimientos, estas aplicaciones optimizan el estudio y facilitan el trabajo en grupo.
+
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+            img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
+            p.text-small.fs-14px.my-auto.ps-2.pe-4 <strong>Anexo.</strong> Integración de aplicaciones y herramientas digitales para la productividad
+             
+        .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
+          img.h-100(src='@/assets/curso/unidad/img-38.png', alt='Texto que describa la imagen')
 
 </template>
 

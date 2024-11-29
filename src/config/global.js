@@ -29,65 +29,53 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1.',
-        titulo: 'Técnicas de autoformación y aprendizaje autónomo',
+        titulo: 'Navegación y gestión de contenidos en plataformas LMS',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Técnicas para establecer metas y objetivos de aprendizaje',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Estrategias de búsqueda y gestión de la información',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Uso de herramientas tecnológicas para el autoaprendizaje',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Técnicas de lectura comprensiva y toma de notas',
-            hash: 't_1_4',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2.',
-        titulo: 'Introducción al aprendizaje en línea',
+        titulo:
+          'Uso de herramientas de videoconferencia y colaboración en línea',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Creación y programación de reuniones',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Acceso y configuración del perfil de usuario',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Configuración de audio y video',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3.',
-        titulo:
-          'Gestión del tiempo y organización personal en la modalidad virtual',
+        titulo: 'Uso ético de la información en entornos virtuales',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Importancia de la evaluación personal en el proceso de aprendizaje',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Técnicas de autoevaluación',
-            hash: 't_3_2',
-          },
-        ],
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4.',
+        titulo: 'Privacidad y seguridad en redes sociales y aplicaciones',
+        desarrolloContenidos: true,
+        subMenu: [],
       },
     ],
     subMenu: [
@@ -115,7 +103,7 @@ export default {
       {
         icono: 'fas fa-file-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/Competencias digitales_U2.pdf',
+        download: 'downloads/Competencias digitales_U3.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -132,253 +120,164 @@ export default {
   referencias: [
     {
       referencia:
-        'Alcott, L. (2015). La importancia de la planificación: Estrategias para un día productivo. Editorial Gestión.',
+        'Al-Fraihat, D., Joy, M. & Sinclair, J. (2020). Evaluating E-learning systems success: An empirical study. Revista internacional de tecnología educativa en la educación superior.',
       link:
-        'https://www.gestioneditorial.com/planificacion-estrategias-productivas',
+        'https://www.sciencedirect.com/science/article/abs/pii/S0747563219302912',
     },
     {
       referencia:
-        'Allen, D. (2006). Organízate con eficacia: El arte de la productividad sin estrés. Editorial Sirio.',
-      link: 'https://archive.org/details/organizate_con_eficacia',
+        'Bailenson, J. N. (2021). Nonverbal overload: A theoretical argument for the causes of Zoom fatigue. Technology, Mind, and Behavior, 2(1).',
+      link: 'https://doi.org/10.1037/tmb0000030',
     },
     {
       referencia:
-        'Andrade, H. & Brookhart, S. (2016). Autoevaluación en el aula: Estrategias prácticas para mejorar el aprendizaje. ASCD.',
-      link: 'https://www.ascd.org/autoevaluación-aprendizaje',
+        'Barron, J., Quintanilla, J., Rico, J. Gordillo, L., & Ojeda, B., M. (2014). Uso de un sistema para la gestión del aprendizaje (LMS) de código libre en la Universidad Tecnológica del Suroeste de Guanajuato (UTSOE).',
+      link: 'https://oa.upm.es/36880/1/INVE_MEM_2014_197830.pdf',
     },
     {
       referencia:
-        'Bautista, G. (2015). Aprendizaje autónomo y tecnologías digitales. Universidad Oberta de Cataluña.',
-      link: 'https://openaccess.uoc.edu/handle/10609/45242',
-    },
-    {
-      referencia:
-        'Blanchard, K. & Johnson, S. (2009). El ejecutivo al minuto. HarperCollins.',
-      link: 'https://openlibrary.org/works/OL17367335W/El_ejecutivo_al_minuto',
-    },
-    {
-      referencia:
-        'Burka, J. B. & Yuen, L. M. (2008). Procrastinación: Por qué dejamos las cosas para después. Addison Wesley.',
-      link: 'https://archive.org/details/procrastinacion',
-    },
-    {
-      referencia:
-        'Covey, S. (2016). Los 7 hábitos de la gente altamente efectiva. Paidós.',
+        'Díaz-Carbonel, J., & Picho, P. (2021). Los sistemas de gestión de aprendizaje LMS en la educación virtual. Revista CIEG, 5(87), 95-109.',
       link:
-        'https://openlibrary.org/works/OL15693062W/Los_7_habitos_de_la_gente_almente_efectiva',
+        'https://revista.grupocieg.org/wp-content/uploads/2021/06/Ed.5087-95-Diaz-Carbonel-Picho.pdf',
     },
     {
       referencia:
-        'Dzib Moo, D. L. B. & Avila Alexander, R. (2023). Teoría Pedagógica: guía didáctica: (1 ed.). Colegio de Ciencias y Artes de Tabasco.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/230467',
+        'García, J. & Mendez, J. (2013). Teoría de la Educación. Educación y Cultura en la Sociedad de la Información: El cerebro y las TIC. Universidad de Salamanca España.',
+      link: 'https://www.redalyc.org/pdf/2010/201028055003.pdf',
     },
     {
       referencia:
-        'Fiore, N. (2007). El hábito de la procrastinación: Cómo superar el retraso y la postergación. Editorial Hachette.',
-      link: 'https://archive.org/details/elhbitodelaprocrastinacin',
+        'Gonzalez, J., Cantu, M., Camacho, H. & Maldonado, J. (2018). Prácticas Innovadoras de Aprendizaje Emergentes en el Siglo XXI.',
+      link: 'https://www.iiisci.org/journal/pdv/risci/pdfs/CA365KU17.pdf',
     },
     {
       referencia:
-        'García Aretio, L. (2017). Aprender a aprender: Autoformación y aprendizaje autónomo en la era digital. Editorial UNED.',
-      link: 'https://www.uned.es',
+        'González, M. (2012). E-learning sincrónico: aspectos críticos para una planeación efectiva. Revista Academia y Virtualidad.',
+      link: 'https://virtual2.umng.edu.co/distancia/revista/articulos/63.pdf',
     },
     {
       referencia:
-        'García León, J., García Martín, A., & Torres Picazo, M. (2015). gvSIG: guía para el aprendizaje autónomo.',
-      link: '',
-    },
-    {
-      referencia:
-        'Gibbs, G. (2015). Evaluación del aprendizaje en educación superior. Universidad de Oxford.',
-      link: 'https://www.ox.ac.uk/evaluacion-aprendizaje',
-    },
-    {
-      referencia:
-        'Goleman, D. (2018). Foco: El motor oculto de la excelencia. Casa aleatoria de pingüinos.',
-      link: 'https://archive.org/details/focodangoleman',
-    },
-    {
-      referencia:
-        'Hattie, J. & Timperley, H. (2017). El poder de la retroalimentación: Mejorando el rendimiento de los estudiantes. Revista de Investigación Educativa.',
-      link: 'https://www.reviewedresearch.org/feedback-power',
-    },
-    {
-      referencia:
-        'Herrera, J. (2015). Autonomía en el aprendizaje: Técnicas y estrategias. Educación Digital.',
-      link: 'https://educaciondigital.org/autonomia_aprendizaje/',
-    },
-    {
-      referencia:
-        'Leiva, F. (2018). Estrategias para un aprendizaje autónomo eficaz. Educaciones Digitales.',
-      link: 'http://www.educacionesdigitales.com/aprendizaje-autonomo/',
-    },
-    {
-      referencia:
-        'López, N., & Escudero, J. (2015). Evaluación y autoevaluación del aprendizaje: Nuevas perspectivas. Ediciones Universidad de Sevilla.',
-      link: 'https://www.us.es/evaluacion-aprendizaje',
-    },
-    {
-      referencia:
-        'Martín, A. (Coord.), Mateu Gordon, J. L. (Coord.) & Guede Cid, R. (Coord.). (2023). Construyendo la educación del futuro en áreas de ingeniería, economía y STEM: (1 ed.). Dykinson.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/250276',
-    },
-    {
-      referencia:
-        'Morales Cevallos, M. B. (Coord.) & Berbel Oller, P. (Coord.). (2024). Desafíos de la educación contemporánea: perspectivas formativas para una sociedad digital: (1 ed.). Dykinson.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/271711',
-    },
-    {
-      referencia:
-        'Morgenstern, J. (2004). Tiempo para ti: Cómo hacer tiempo para las cosas que importan. Simón y Schuster.',
+        'Ministerio de Educación de Chile. (2020). Herramientas y recursos digitales. Biblioteca Digital del Ministerio de Educación.',
       link:
-        'https://openlibrary.org/works/OL2142060W/Time_Management_from_the_Inside_Out',
+        'https://bibliotecadigital.mineduc.cl/bitstream/handle/20.500.12365/16950/2020Herramientas%20y%20recursos%20digitales.pdf?sequence=1',
     },
     {
       referencia:
-        'Muñoz Maya, N. (Il.). (2024). Educación y didáctica: hacia una ampliación del canon en las aulas: (1 ed.). Dykinson.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/264240',
+        'Molina, N., A. (2018). Impacto de internet y redes sociales en la salud mental de los jóvenes. Consaludmental.org.',
+      link:
+        'https://consaludmental.org/publicaciones/Impacto-internet-redes-sociales-salud-mental-jovenes.pdf',
     },
     {
       referencia:
-        'Nicol, D. & Macfarlane-Dick, D. (2014). Principios de retroalimentación efectiva en la educación superior. Investigación Educativa.',
-      link: 'https://www.educationalresearch.org/efectivo-feedback',
+        'Saldaña, L. & Barrio, M. (2021). Métodos y Estrategias de Aprendizaje en la Era Digital.',
+      link: 'https://uvadoc.uva.es/bitstream/handle/10324/51002/TFM-G1535.pdf',
     },
     {
-      referencia:
-        'Ortiz, J. M. & Ruíz, P. M. (2019). Técnicas de autoformación para entornos virtuales. Ediciones Académicas.',
-      link: 'http://www.edicionesacademicas.org/autoformacion/',
-    },
-    {
-      referencia:
-        'Panadero, E. (2017). Autoevaluación y coevaluación en el aprendizaje: Herramientas para la mejora continua. Prensa de la Universidad de Cambridge.',
-      link: 'https://www.cambridge.org/auto-evaluacion',
-    },
-    {
-      referencia:
-        'Pérez, A., & Fernández, M. (2020). Autoformación en la educación superior: Estrategias y técnicas. Biblioteca Digital Universitaria.',
-      link: 'https://bibliotecadigital.org/autoformacion-educacion-superior',
-    },
-    {
-      referencia:
-        'Prieto Castillo, D., Guevara Toledo, C. & Célleri Gomezcoello, A. (2023). Más allá de la defensa y el ataque. La evaluación como alternativa de aprendizaje: (1 ed.). Universidad del Azuay.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/233565',
-    },
-    {
-      referencia:
-        'Rodríguez, C. (2016). Habilidades para el aprendizaje autónomo. Editorial Innovación Educativa.',
-      link: 'http://innovacioneducativa.net/aprendizaje-autonomo/',
-    },
-    {
-      referencia:
-        'Rogero García, J. & Durán Heras, M. Á. (2009). La investigación sobre el uso del tiempo. CIS - Centro de Investigaciones Sociológicas.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/52033',
-    },
-    {
-      referencia:
-        'Sadler, D. R. (2010). Formas de retroalimentación que mejoran el rendimiento académico. Revista de Evaluación Educativa.',
-      link: 'https://www.journalofassessment.org/feedback-academic-rendimiento',
-    },
-    {
-      referencia:
-        'Solé, M. (2013). El papel de la motivación en el aprendizaje autónomo. Universidad de Barcelona.',
-      link: 'https://www.ub.edu/publicaciones/autoaprendizaje-motivacion',
-    },
-    {
-      referencia:
-        'Tracy, B. (2013). Tráguese ese sapo: 21 maneras de dejar de postergar y realizar más en menos tiempo. Editorial Empresa Activa.',
-      link: '',
+      referencia: 'Serving on Groups. (2024). Causas de la fatiga Zoom.',
+      link:
+        'https://servingongroups.org/wp-content/uploads/2024/03/Section-4_Resources_4-Causas-de-la-fatiga-zoom.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Aprendizaje autónomo',
+      termino: 'Abreviaciones',
       significado:
-        'Capacidad de dirigir y gestionar el propio proceso de aprendizaje, estableciendo metas, recursos y evaluando el progreso de manera independiente',
+        'Formas cortas de palabras o frases, utilizadas frecuentemente en mensajes informales, que pueden no ser apropiadas en contextos formales',
     },
     {
-      termino: 'Autodisciplina',
+      termino: 'Colaboración',
       significado:
-        'Habilidad de una persona para establecer y seguir rutinas y hábitos sin necesidad de supervisión externa',
+        'Acción de trabajar conjuntamente con otros para lograr un objetivo común, fomentando la comunicación y el intercambio de ideas',
     },
     {
-      termino: 'Autoevaluación',
+      termino: 'Confidencialidad',
       significado:
-        'Proceso mediante el cual una persona analiza y evalúa su propio desempeño o aprendizaje para identificar áreas de mejora',
+        'Calidad de ser confidencial, o sea, la protección de información privada y sensible de ser divulgada sin permiso',
     },
     {
-      termino: 'Autoformación',
+      termino: 'Consentimiento',
       significado:
-        'Proceso en el que una persona adquiere conocimientos y habilidades por iniciativa propia, sin depender exclusivamente de la instrucción formal',
+        'Aprobación o permiso dado por una persona para que se use su información personal, especialmente en contextos digitales',
     },
     {
-      termino: 'Calendario',
+      termino: 'Contenidos',
       significado:
-        'Herramienta para la organización del tiempo que permite distribuir actividades, fechas y plazos a lo largo de un período definido',
+        'Materiales o información que se comparten a través de medios digitales, como textos, imágenes o videos',
     },
     {
-      termino: 'Diagrama de Gantt',
+      termino: 'Cultura',
       significado:
-        'Herramienta visual para planificar y gestionar proyectos, mostrando las tareas en un cronograma y permitiendo organizar el tiempo de forma más eficaz',
+        'Conjunto de conocimientos, prácticas y valores que se comparten en un grupo social y que influyen en su comportamiento',
     },
     {
-      termino: 'Evaluación formativa',
+      termino: 'Desinformación',
       significado:
-        'Tipo de evaluación continua durante el proceso de aprendizaje, que permite ajustar el enfoque y mejorar el desempeño antes de una evaluación final',
+        'Información incorrecta o engañosa que se comparte sin verificar su veracidad, causando confusión o malentendidos',
     },
     {
-      termino: 'Gestión del conocimiento',
+      termino: 'Empatía',
       significado:
-        'Proceso de adquirir, organizar, compartir y aplicar el conocimiento de manera eficiente para mejorar el aprendizaje',
+        'Capacidad de comprender y compartir los sentimientos de los demás, fundamental para la comunicación efectiva y el respeto',
     },
     {
-      termino: 'Matriz de Eisenhower',
+      termino: 'Formalidad',
       significado:
-        'Herramienta para priorizar tareas dividiéndolas según su urgencia e importancia, ayudando a mejorar la gestión del tiempo',
+        'Uso de un lenguaje y comportamiento adecuado a un contexto profesional o académico, que muestra respeto y seriedad',
     },
     {
-      termino: 'Metacognición',
+      termino: 'Interacción',
       significado:
-        'Capacidad de pensar sobre los propios procesos de pensamiento y aprendizaje, facilitando la autogestión del conocimiento y el ajuste de estrategias de aprendizaje',
+        'Acción de comunicarse o intercambiar ideas entre personas, especialmente en entornos digitales',
     },
     {
-      termino: 'Motivación intrínseca',
+      termino: 'Netiqueta',
       significado:
-        'Impulso interno que mueve a una persona a aprender o realizar una actividad por el interés y satisfacción personal que le genera',
+        'Conjunto de normas y pautas de comportamiento que se deben seguir en la comunicación en línea para mantener un ambiente respetuoso',
     },
     {
-      termino: 'Objetivos SMART',
+      termino: 'Paciencia',
       significado:
-        'Metodología para establecer objetivos que sean específicos, medibles, alcanzables, relevantes y con un tiempo definido para su consecución',
+        'Capacidad de esperar o tolerar sin frustración, esencial en la comunicación para permitir que todos se expresen',
     },
     {
-      termino: 'Planificación',
+      termino: 'Participación',
       significado:
-        'Organización y diseño previo de las acciones o tareas que deben realizarse en un período determinado, con el fin de alcanzar objetivos específicos',
+        'Involucramiento activo en discusiones o actividades grupales, que fomenta el intercambio de ideas y el trabajo en equipo',
     },
     {
-      termino: 'Principio de Pareto',
+      termino: 'Plataformas',
       significado:
-        'Regla que sugiere que el 80% de los resultados provienen del 20% de los esfuerzos, aplicado a la gestión del tiempo para centrarse en las actividades más productivas',
+        'Espacios digitales donde se lleva a cabo la comunicación, como redes sociales, foros o aplicaciones de mensajería',
     },
     {
-      termino: 'Prioridad',
+      termino: 'Privacidad',
       significado:
-        'Proceso de identificar y ordenar las tareas o actividades según su importancia o urgencia para una gestión eficaz del tiempo',
+        'Derecho de las personas a mantener su información personal segura y a decidir quién puede acceder a ella',
     },
     {
-      termino: 'Procrastinación',
+      termino: 'Reputación',
       significado:
-        'Tendencia a postergar o retrasar tareas importantes en favor de otras actividades menos relevantes o placenteras',
+        'Percepción que tienen los demás sobre una persona, basada en sus acciones y comportamientos, especialmente en línea',
     },
     {
-      termino: 'Reflexión',
+      termino: 'Respeto',
       significado:
-        'Proceso de análisis y pensamiento crítico sobre las acciones, aprendizajes o comportamientos para generar nuevas ideas o soluciones',
+        'Consideración y trato deferente hacia los demás, crucial para la convivencia y la comunicación efectiva',
     },
     {
-      termino: 'Retroalimentación',
+      termino: 'Seguridad',
       significado:
-        'Información o respuestas que una persona recibe sobre su desempeño o proceso de aprendizaje, con el fin de mejorar o ajustar sus acciones futuras',
+        'Protección de la información personal y comunicación frente a accesos no autorizados y posibles amenazas en línea',
+    },
+    {
+      termino: 'Sensacionalismo',
+      significado:
+        'Técnica de presentar información de manera exagerada o impactante para atraer atención, a menudo a costa de la verdad',
+    },
+    {
+      termino: 'Turno',
+      significado:
+        'Momento o posición que le corresponde a una persona para hablar o participar en una conversación, esencial para un diálogo ordenado',
     },
   ],
   complementario: [

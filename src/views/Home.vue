@@ -21,7 +21,7 @@
           .col-xl-6.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xl-4.ps-xl-5.py-xxl-5.text-start
               p.home-main-title.text-uppercase Competencias Digitales
-              h1.home-title.mb-4.mb-lg-5.text-uppercase Competencias de autoformación y autogestión del aprendizaje
+              h1.home-title.mb-4.mb-lg-5.text-uppercase Dominio de la Plataforma LMS y Herramientas Digitales
               p.descripcion.mb-4 El aprendizaje autónomo permite dirigir el propio proceso educativo mediante técnicas de autoformación como la lectura, toma de notas y uso de tecnología. Sus características clave incluyen proactividad, autodirección, autorregulación y flexibilidad, fomentando la autonomía y la motivación interna. A través de la planificación de metas SMART y herramientas como la técnica Pomodoro, se facilita la gestión del tiempo. La autoevaluación permite ajustar el progreso, y las plataformas MOOC y Google Calendar apoyan este aprendizaje independiente.
               
               p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El momento de marcar la diferencia es ahora!

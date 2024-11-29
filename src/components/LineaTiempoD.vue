@@ -14,21 +14,21 @@
         .indicador__container(v-if="mostrarIndicador && index === 1")
           .indicador--click
         span(v-html="item.numero")
-      .linea-tiempo-d__item__dots(
-        v-if="index < elements.length -1"
-      )
 
     .col(:class="{'mb-4' : index < elements.length -1}")
       .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
-        .linea-tiempo-d__item__content__title.px-3(
+        .linea-tiempo-d__item__content__title.px-3.justify-content-between(
+          :class="{'active' : selected === item.id}"
           @click="selected = item.id"
           @mouseover="mostrarIndicador = mostrarIndicador && index >= 1 ? false : mostrarIndicador"
         )
           span(v-html="item.titulo")
+          i.fas.fa-angle-up(v-if="selected === item.id")
+          i.fas.fa-angle-down(v-else)
         .linea-tiempo-d__item__content__slot(
           :style="{ height: rendered && selected === item.id ? getActiveHeight(item.id) : 0 } "
         )
-          .p-3.pt-0(:ref="item.id" v-child="item.elm" )
+          .p-3(:ref="item.id" v-child="item.elm" )
 
   .hidden-slot
     slot
