@@ -119,6 +119,29 @@
         .col-4.d-none.d-xl-block(data-aos="fade-left")
           img(src='@/assets/curso/unidad/img-54.png', alt='Texto que describa la imagen')
 
+      .bg-full-width.border-top-9-azul.mb-5
+        .px-4.px-md-5.pt-5.pb-0
+          h2 Material complementario
+          .row
+            .col-12.col-md-6.col-lg-8
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://www.iiisci.org/journal/pdv/risci/pdfs/CA365KU17.pdf") Gonzalez, J., et al. (2018). Prácticas Innovadoras de Aprendizaje Emergentes en el Siglo XXI.
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://servingongroups.org/wp-content/uploads/2024/03/Section-4_Resources_4-Causas-de-la-fatiga-zoom.pdf") Serving on Groups. (2024). Causas de la fatiga Zoom.
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/live/Ye0luWSWKoY") Open lab (2024). Privacidad y datos personales en línea [Vídeo]
+            .col-12.col-md-6.col-lg-3
+              figure
+                img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+
+      .bg-full-width.border-top.actividad(style="background-color: #ebf1f5; border-top: 5px solid #f5c145 !important")
+        .p-4.p-md-5
+          #Actividad                
+            <Actividad :cuestionario="cuestionario"/>
+
   </template>
 
 <script>
@@ -128,6 +151,158 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Gestión de Recursos Digitales y Seguridad',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            '¿Qué herramienta es adecuada para planificar tareas de estudio?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Programas de entretenimiento',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Calendario digital o aplicación de planificación',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'Google Drive', esCorrecta: false },
+            { id: 'd', texto: 'Herramientas de podcast', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Cuál de las siguientes prácticas promueve el uso ético de la información?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Copiar y pegar sin citar al autor',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Parafrasear y citar la fuente',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Compartir material sin tener en cuenta el autor',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Copiar todo lo encontrado en internet, ya que es público',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Qué debe hacer un estudiante si necesita usar una imagen encontrada en línea para una presentación?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Utilizarla sin permiso', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Verificar su licencia y dar crédito al autor',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Utilizar la imagen sin permiso ni citar la fuente, ya que está en internet y es de acceso público',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Modificar la imagen ligeramente para evitar problemas de derechos de autor y luego utilizarla sin citar',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto: '¿Cuál es una práctica segura al gestionar contraseñas?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Usar la misma contraseña para todos los sitios',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Crear contraseñas únicas y seguras para cada cuenta',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Utilizar la misma contraseña para todas las cuentas para que sea fácil recordarlas',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Escribir todas las contraseñas en un archivo de texto en la computadora sin protección',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Cuál de estas prácticas es adecuada para proteger tu privacidad en línea?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Hacer pública tu información personal',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Usar configuraciones de privacidad adecuadas en redes sociales',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Compartir tu contraseña con amigos cercanos para que te ayuden si olvidas la contraseña',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

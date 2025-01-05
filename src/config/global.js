@@ -77,6 +77,11 @@ export default {
         desarrolloContenidos: true,
         subMenu: [],
       },
+      {
+        nombreRuta: 'sintesis',
+        titulo: 'Síntesis',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       // {
@@ -101,19 +106,9 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/Competencias digitales_U3.pdf',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
-      },
-      {
-        icono: 'far fa-registered',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
       },
     ],
   },
@@ -182,102 +177,102 @@ export default {
     {
       termino: 'Abreviaciones',
       significado:
-        'Formas cortas de palabras o frases, utilizadas frecuentemente en mensajes informales, que pueden no ser apropiadas en contextos formales',
+        'Formas cortas de palabras o frases, utilizadas frecuentemente en mensajes informales, que pueden no ser apropiadas en contextos formales.',
     },
     {
       termino: 'Colaboración',
       significado:
-        'Acción de trabajar conjuntamente con otros para lograr un objetivo común, fomentando la comunicación y el intercambio de ideas',
+        'Acción de trabajar conjuntamente con otros para lograr un objetivo común, fomentando la comunicación y el intercambio de ideas.',
     },
     {
       termino: 'Confidencialidad',
       significado:
-        'Calidad de ser confidencial, o sea, la protección de información privada y sensible de ser divulgada sin permiso',
+        'Calidad de ser confidencial, o sea, la protección de información privada y sensible de ser divulgada sin permiso.',
     },
     {
       termino: 'Consentimiento',
       significado:
-        'Aprobación o permiso dado por una persona para que se use su información personal, especialmente en contextos digitales',
+        'Aprobación o permiso dado por una persona para que se use su información personal, especialmente en contextos digitales.',
     },
     {
       termino: 'Contenidos',
       significado:
-        'Materiales o información que se comparten a través de medios digitales, como textos, imágenes o videos',
+        'Materiales o información que se comparten a través de medios digitales, como textos, imágenes o videos.',
     },
     {
       termino: 'Cultura',
       significado:
-        'Conjunto de conocimientos, prácticas y valores que se comparten en un grupo social y que influyen en su comportamiento',
+        'Conjunto de conocimientos, prácticas y valores que se comparten en un grupo social y que influyen en su comportamiento.',
     },
     {
       termino: 'Desinformación',
       significado:
-        'Información incorrecta o engañosa que se comparte sin verificar su veracidad, causando confusión o malentendidos',
+        'Información incorrecta o engañosa que se comparte sin verificar su veracidad, causando confusión o malentendidos.',
     },
     {
       termino: 'Empatía',
       significado:
-        'Capacidad de comprender y compartir los sentimientos de los demás, fundamental para la comunicación efectiva y el respeto',
+        'Capacidad de comprender y compartir los sentimientos de los demás, fundamental para la comunicación efectiva y el respeto.',
     },
     {
       termino: 'Formalidad',
       significado:
-        'Uso de un lenguaje y comportamiento adecuado a un contexto profesional o académico, que muestra respeto y seriedad',
+        'Uso de un lenguaje y comportamiento adecuado a un contexto profesional o académico, que muestra respeto y seriedad.',
     },
     {
       termino: 'Interacción',
       significado:
-        'Acción de comunicarse o intercambiar ideas entre personas, especialmente en entornos digitales',
+        'Acción de comunicarse o intercambiar ideas entre personas, especialmente en entornos digitales.',
     },
     {
       termino: 'Netiqueta',
       significado:
-        'Conjunto de normas y pautas de comportamiento que se deben seguir en la comunicación en línea para mantener un ambiente respetuoso',
+        'Conjunto de normas y pautas de comportamiento que se deben seguir en la comunicación en línea para mantener un ambiente respetuoso.',
     },
     {
       termino: 'Paciencia',
       significado:
-        'Capacidad de esperar o tolerar sin frustración, esencial en la comunicación para permitir que todos se expresen',
+        'Capacidad de esperar o tolerar sin frustración, esencial en la comunicación para permitir que todos se expresen.',
     },
     {
       termino: 'Participación',
       significado:
-        'Involucramiento activo en discusiones o actividades grupales, que fomenta el intercambio de ideas y el trabajo en equipo',
+        'Involucramiento activo en discusiones o actividades grupales, que fomenta el intercambio de ideas y el trabajo en equipo.',
     },
     {
       termino: 'Plataformas',
       significado:
-        'Espacios digitales donde se lleva a cabo la comunicación, como redes sociales, foros o aplicaciones de mensajería',
+        'Espacios digitales donde se lleva a cabo la comunicación, como redes sociales, foros o aplicaciones de mensajería.',
     },
     {
       termino: 'Privacidad',
       significado:
-        'Derecho de las personas a mantener su información personal segura y a decidir quién puede acceder a ella',
+        'Derecho de las personas a mantener su información personal segura y a decidir quién puede acceder a ella.',
     },
     {
       termino: 'Reputación',
       significado:
-        'Percepción que tienen los demás sobre una persona, basada en sus acciones y comportamientos, especialmente en línea',
+        'Percepción que tienen los demás sobre una persona, basada en sus acciones y comportamientos, especialmente en línea.',
     },
     {
       termino: 'Respeto',
       significado:
-        'Consideración y trato deferente hacia los demás, crucial para la convivencia y la comunicación efectiva',
+        'Consideración y trato deferente hacia los demás, crucial para la convivencia y la comunicación efectiva.',
     },
     {
       termino: 'Seguridad',
       significado:
-        'Protección de la información personal y comunicación frente a accesos no autorizados y posibles amenazas en línea',
+        'Protección de la información personal y comunicación frente a accesos no autorizados y posibles amenazas en línea.',
     },
     {
       termino: 'Sensacionalismo',
       significado:
-        'Técnica de presentar información de manera exagerada o impactante para atraer atención, a menudo a costa de la verdad',
+        'Técnica de presentar información de manera exagerada o impactante para atraer atención, a menudo a costa de la verdad.',
     },
     {
       termino: 'Turno',
       significado:
-        'Momento o posición que le corresponde a una persona para hablar o participar en una conversación, esencial para un diálogo ordenado',
+        'Momento o posición que le corresponde a una persona para hablar o participar en una conversación, esencial para un diálogo ordenado.',
     },
   ],
   complementario: [

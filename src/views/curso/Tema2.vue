@@ -162,7 +162,7 @@
                 p.text-bold.mb-3 Comunicación con el moderador
                 p.mb-0.text-small Los participantes pueden solicitar la ayuda del moderador si tienen dudas o necesitan orientación, facilitando el desarrollo fluido de la actividad (Ministerio de Educación de Chile, 2020)
 
-    .row.bg-azul.bg-full-width.py-4
+    .row.bg-azul.bg-full-width.py-4.mb-5
       div.px-5.pb-md-3.py-4.d-flex
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto ¿Sabía que integrar aplicaciones digitales puede mejorar notablemente la productividad académica?
@@ -174,6 +174,22 @@
              
         .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
           img.h-100(src='@/assets/curso/unidad/img-38.png', alt='Texto que describa la imagen')
+
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://oa.upm.es/36880/1/INVE_MEM_2014_197830.pdf") Barron, J., et al. (2014). Uso de un sistema para la gestión del aprendizaje (LMS).
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://bibliotecadigital.mineduc.cl/bitstream/handle/20.500.12365/16950/2020Herramientas%20y%20recursos%20digitales.pdf") Ministerio de Educación de Chile. (2020). Herramientas y recursos digitales.
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 </template>
 

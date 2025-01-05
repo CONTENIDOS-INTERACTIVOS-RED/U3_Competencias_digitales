@@ -174,7 +174,7 @@
               figure
                 img(src='@/assets/curso/unidad/img-23.png', alt='Texto que describa la imagen')
 
-    .position-relative.mb-4.py-4.bg-fondo-4.bg-full-width
+    .position-relative.mb-4.py-4.bg-fondo-4.bg-full-width.mb-5
       div.px-4.px-md-5.py-md-3
 
         h2 Solución de problemas comunes en el uso de LMS
@@ -189,8 +189,26 @@
               p(numero="2" titulo="Carga lenta o fallos en la página") Compruebe la conexión a internet, reinice el módem o intente acceder desde otro navegador o dispositivo. Limpiar la caché y las cookies del navegador puede mejorar el rendimiento (Al-Fraihat, Joy, & Sinclair, 2020).
               p(numero="3" titulo="Problemas para visualizar archivos o materiales") Asegúrese de tener los programas necesarios para abrir el archivo, como lectores de PDF o procesadores de texto. También puede intentar descargar el archivo directamente en lugar de verlo en el navegador (Díaz-Carbonel & Picho, 2021).
               p(numero="4" titulo="Dificultad para reproducir videos o contenido multimedia") Verifique la estabilidad y velocidad de la conexión a internet, y conside reducir la calidad del video si persisten los problemas. Actualizar el navegador o los complementos multimedia puede mejorar la reproducción (García & Méndez, 2013).
-              p(numero="5" titulo="Notificaciones inconsistentes") Revise la configuración de notificaciones en el perfil del LMS para asegurarse de que están activadas solo las alertas relevantes
+              p(numero="5" titulo="Notificaciones inconsistentes") Revise la configuración de notificaciones en el perfil del LMS para asegurarse de que están activadas solo las alertas relevantes.
               p(numero="6" titulo="Falta de retroalimentación en tareas") Si no ve los comentarios o calificaciones de una tarea, verifique si el instructor ya los ha publicado y revise la sección de calificaciones o el área de actividad en el LMS.
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://revista.grupocieg.org/wp-content/uploads/2021/06/Ed.5087-95-Diaz-Carbonel-Picho.pdf") Díaz-Carbonel, J., & Picho, P. (2021). Los sistemas de gestión de aprendizaje LMS en la educación virtual. Revista CIEG.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://virtual2.umng.edu.co/distancia/revista/articulos/63.pdf") González, M. (2012). E-learning sincrónico: aspectos críticos para una planeación efectiva.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/xey-hItn5i0") Pascualbravovirtual (2014). Como estudiar en la plataforma LMS [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 
 </template>

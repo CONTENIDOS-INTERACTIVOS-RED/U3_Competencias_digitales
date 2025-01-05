@@ -20,9 +20,9 @@
             img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
           .col-12.col-md-10.col-xl-6.mx-auto.ms-xl-auto.my-auto(data-aos="fade-left")
             TarjetaAudio.color-primario.bg-white(
-              texto="Proceso de descarga de MySQL Server Community y MySQL Workbench"
+              texto="Derechos de autor y licencias de uso"
               tiempo
-              :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('../../assets/componentes/audios/Podcast_ Competencias digitales_UnidadIII.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             ) 
 
@@ -52,7 +52,7 @@
                 p.text-bold.text-center Buenas prácticas para proteger <br>la privacidad
                 p.text-small.px-4.text-center.pb-2 Configurar opciones de privacidad en redes sociales, utilizar contraseñas seguras y habilitar la autenticación en dos pasos ayuda a mantener la seguridad en entornos digitales.
 
-    .row.bg-azul.bg-full-width.py-4
+    .row.bg-azul.bg-full-width.py-4.mb-5
       div.px-5.pb-md-3.py-4.d-flex
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto ¿Sabía que protegerse contra ciberamenazas es clave para su seguridad digital? 
@@ -65,7 +65,26 @@
         .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
           img.h-100(src='@/assets/curso/unidad/img-44.png', alt='Texto que describa la imagen')
 
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://consaludmental.org/publicaciones/Impacto-internet-redes-sociales-salud-mental-jovenes.pdf") Molina, N. A. (2018). Impacto de internet y redes sociales en la salud mental de los jóvenes.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://uvadoc.uva.es/bitstream/handle/10324/51002/TFM-G1535.pdf") Saldaña, L. & Barrio, M. (2021). Métodos y Estrategias de Aprendizaje en la Era Digital.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/-nVlXATzn5g") Palacios, J. (2020). Herramientas Digitales para el Trabajo Colaborativo [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
   
+
 
 </template>
 
