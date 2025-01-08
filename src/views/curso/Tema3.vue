@@ -58,7 +58,7 @@
           h2.mb-4.pb-2.me-auto ¿Sabía que protegerse contra ciberamenazas es clave para su seguridad digital? 
           p.mb-5 En el documento Identificación y prevención de ciberamenazas, descubrirá los tipos de amenazas más comunes, como phishing y malware, y aprenderá prácticas esenciales para proteger sus datos, como usar antivirus, activar la autenticación en dos factores y crear contraseñas seguras. Lo invitamos a explorar estas estrategias para fortalecer su seguridad en entornos digitales.
 
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Identificación y prevención de ciberamenazas.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.ps-2.pe-4 <strong>Anexo.</strong> Anexo. Identificación y prevención de ciberamenazas
              

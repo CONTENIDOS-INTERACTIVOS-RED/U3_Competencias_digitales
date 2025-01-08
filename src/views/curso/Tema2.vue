@@ -168,7 +168,7 @@
           h2.mb-4.pb-2.me-auto ¿Sabía que integrar aplicaciones digitales puede mejorar notablemente la productividad académica?
           p.mb-5 Este documento: Integración de aplicaciones y herramientas digitales para la productividad académica le invita a explorar herramientas clave para la organización, toma de notas, colaboración y creación de contenidos. Desde Google Calendar y Trello para gestionar tiempo y tareas, hasta Notion y Evernote para organizar conocimientos, estas aplicaciones optimizan el estudio y facilitan el trabajo en grupo.
 
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_ Integración de aplicaciones y herramientas digitales para la productividad académica.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.ps-2.pe-4 <strong>Anexo.</strong> Integración de aplicaciones y herramientas digitales para la productividad
              
