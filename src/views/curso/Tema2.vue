@@ -66,10 +66,10 @@
     
     p.mb-4 Un acceso seguro y la configuración del perfil personal en las plataformas de videoconferencia facilitan una experiencia de uso más segura y personalizada.
     
-    .row.position-relative.mb-5.py-4.bg-fondo-6.bg-full-width
+    .row.position-relative.mb-0.py-4.bg-fondo-6.bg-full-width
       div.px-4.px-md-5.py-md-3
 
-        .row.mb-0
+        .row.mb-4
           .col-10.col-md-6.col-lg-4.mb-0.mx-auto(data-aos="fade-right")
             div.custom-image-card.rounded-8px.p-4.pt-xl-5
               img.mb-4.mx-auto(src='@/assets/curso/unidad/img-55.svg', alt='Texto que describa la imagen', style="width: 90px")

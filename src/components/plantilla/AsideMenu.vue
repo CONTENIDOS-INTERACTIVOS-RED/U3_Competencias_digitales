@@ -42,7 +42,6 @@ aside
           )
             li.aside-menu__sec-menu__item(
               :key="`secMenu-item-${secMenuIndex}`"
-              :class="{'d-none':secMenuItem.titulo.includes('material') && isLocal()}"
             )
               a.aside-menu__sec-menu__item__lnk(
                 v-if="secMenuItem.hasOwnProperty('download')"
